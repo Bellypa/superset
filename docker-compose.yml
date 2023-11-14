@@ -74,7 +74,7 @@ services:
     volumes: *superset-volumes
     environment:
       CYPRESS_CONFIG: "${CYPRESS_CONFIG}"
-
+      SUPERSET_JWT_SECRET: "00a9f7f3a56e61989cd4989f61621a142c728646b2db13bda16062a4d5714667"
   superset-websocket:
     container_name: superset_websocket
     build: ./superset-websocket
