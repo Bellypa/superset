@@ -67,7 +67,7 @@ services:
     restart: unless-stopped
     ports:
       # - 8088:8088
-      - "151.35.113.164:8088:8088"
+      - "161.35.112.163:8088:8088"
     extra_hosts:
       - "host.docker.internal:host-gateway"
     user: *superset-user
